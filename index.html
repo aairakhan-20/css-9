@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+ background-image: url(images/background3.jfif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+div {
+justify-content: center;
+margin-top: 75px;
+margin-left: 38%;
+background-color: rgba(255, 255, 255, 0.2);
+border: 2px solid white;
+border-radius: 40px;
+backdrop-filter: blur(25px);
+width: 27%;
+height: 480px;
+padding-left: 17px;
+}
+
+h2 {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    font-size: 37px;
+}
+
+label {
+padding: 15px;
+font-size: 16px;
+font-weight: bold;
+color: white;
+font-family: Century Gothic;
+}
+
+.input {
+border: 1px solid white;
+border-radius: 40px;
+background: none;
+height: 41px;
+width: 300px;
+padding: 15px;
+}
+
+i {
+    position: relative;
+    right: 29px;
+}
+
+span {
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Century Gothic;
+}
+
+.btn {
+    font-weight: bolder;
+    font-family: Century Gothic;
+    font-size: 18px;
+border: 1px solid white;
+border-radius: 40px;
+background-color: white;
+width: 300px;
+padding: 15px;
+margin-top: 30px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.btn:focus {
+    color: rgb(138, 124, 46);
+    border: 2px solid rgb(50, 52, 146);
+    background-color: rgb(50, 52, 146);
+    font-family: Century Gothic;
+}
+
+p {
+    color: white;
+    margin-top: 20px;
+    margin-left: 4px;
+    font-family: Century Gothic;
+    font-size: 15px;
+}
+
+.next {
+    justify-content: center;
+    border-radius: 40px;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 280px;
+    margin-left: 50px;
+    margin-top: -30px;
+    font-family: Century Gothic;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+ </style>
+</head>
+<body>
+    <div>
+   <h2>Login</h2>
+   <label for="username">Username</label><br>
+   <input class="input" type="text" id="username"><i class="fa-regular fa-user"></i>
+<br>
+<br>
+<br>
+   <label for="password">Password</label><br>
+   <input class="input" type="password" id="password"><i class="fa-solid fa-lock"></i>
+<br>
+<br>
+<br>
+  <span><input type="checkbox" name="" id="">&nbsp; Remember me</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+   <span>Forgot password??</span>
+   <button  class="btn">LOGIN</button>
+   <p>Don't you have an account? Register Yourself</p>
+</div>
+<button class="next"><a href="assignment2.html">Next Assignment</a></button>
+</body>
+</html>
